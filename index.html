@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--LINKS-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <title>WhatsApp</title>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+
+    <body >
+      <div class="container chatBox  ">
+          <div class="row z-depth-2"> <!--Dividimos dos secciones-->
+              <div class="col s4 customeNav "><!--BArra de Navegacion IzQ Perfil-->
+                    <div class="row z-depth-1  grey lighten-3 black-text">
+                      <div class="col s2 center">
+                        <img src="assets/images/katy.jpg" alt="" class="circle responsive-img "> <!-- notice the "circle" class -->
+                      </div>
+                      <div class="col s5 offset-s5">
+                        <ul class=" right ">
+                          <li><a href="#"><i class="material-icons grey-text">comment</i></a></li>
+                          <li><a href="#"><i class="material-icons grey-text">more_vert</i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- input -->
+                    <div class="section ">
+                        <div class="row">
+                      
+                            <form class="col s12">
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <i class="material-icons prefix">search</i>
+                                  <textarea id="icon_prefix2" class=""></textarea>
+                                  <label for="icon_prefix2"><small>Buscar o empezar un chat nuevo</small></label>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                    </div>    
+                    <!-- ULTIMOS CHATS-->
+
+                     <!-- Modificar para VER EN EL DOM
+                     <div class="section" id="chat_">
+                      <div class="row">
+                        <div class="col s2 center">
+                           <img src="assets/images/katy.jpg" alt="" class="circle responsive-img ">
+                        </div>
+                        <div class="col s7  left">
+                          <strong>Laboratoria Peru</strong>
+                          <small>Laboratoria Peru </small>
+                        </div>
+                        <div class="col s3  center active-time"></div>
+                      </div>
+                      <div class="divider"></div>
+                    </div>-->
+
+
+
+
+
+                    <div  id='restaurantHere'> 
+                    </div>
+
+              </div>
+
+
+              <!-- IZZQUIERDA -->
+
+
+              <div class="col s8 customeNav">
+                    <div class="row z-depth-1 grey lighten-3 black-text ">
+                      <div class="col s1">
+                        <img src="assets/images/katy.jpg" alt="" class="circle responsive-img "> <!-- notice the "circle" class -->
+                      </div>
+                      <div class="col s3">
+                        <strong>Laboratoria Peru</strong>
+                        <small>Laboratoria Peru </small>
+          
+                      </div>
+                      <div class=" col s4 offset-s4">
+                        <ul class=" right ">
+                          <li><a href="#"><i class="material-icons grey-text">attach_file</i></a></li>
+                          <li><a href="#"><i class="material-icons grey-text">more_vert</i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row ">
+                      <div class="chat" id="newMessageText">
+                      <!--AQUI ES LA VENTANA DEL CHAT -->
+                    </div>
+                    <div class="row">
+                      <div class="col s2 ">
+                        <ul class=" center ">
+                            <li><a href="#"><i class="material-icons grey-text ">mood</i></a></li>
+                        </ul>
+                      </div>
+                      <div class="col s8">
+                        <section class="center">
+
+                         <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class=""></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+  </section>
+                      </div>
+                       <div class="col s2 ">
+                        <ul class=" center ">
+                            <li><a href="#"><i id="btn" class="material-icons grey-text ">mic</i></a></li>
+                        </ul>
+                      </div>  
+                      </div>
+                    </div>
+
+                      
+                    </div>
+              </div>
+        </div>
+      </div>
+<!-- AQUI TERMINA LA PAG -->
+
+
+<!--TABLA CON LA INFORMACION DE LOS USUARIOS-->
+      <section id="tableRest hide">
+        <div class="row">
+          <div class="col 12 white hide">
+             <table>
+                <thead>
+                  <tr>
+                      <th>Photo</th>
+                      <th>Name</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>assets/images/curricula.jpg</td>
+                    <td>Laboratoria Peru</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/raymi.jpg</td>
+                    <td>Raimy saldomando</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/mariana.jpg</td>
+                    <td>Mariana Acosta</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/anamaria.jpg</td>
+                    <td>Ana Maria Martinez Franklin</td>
+                  </tr>
+                  <tr>
+                    <td>assets/images/rodulfo.jpg</td>
+                    <td>Rodulfo Prieto</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/andrea.jpg</td>
+                    <td>Andrea Lamas</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/mariapaula.jpg</td>
+                    <td>Maria Paula Rivarola</td>
+                  </tr>
+                   <tr>
+                    <td>assets/images/katy.jpg</td>
+                    <td>Katy Sanchez</td>
+                  </tr> 
+                   <td>assets/images/aldo.jpg</td>
+                    <td>Aldo Alfaro</td>
+                  </tr> 
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+      </section>
+
+
+<!--SCRIPTS-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+      <script type="text/javascript" src="assets/js/app.js"></script>
+ 
+
+    </body>
+  </html>
